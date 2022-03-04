@@ -12,7 +12,11 @@ function saveToDos() {
 
 function deleteTodo(event) {
     const deleteList = event.target.parentElement;
+    // console.log(deleteList.id);
     deleteList.remove();
+    // toDo.id -> int  /  deleteList.id -> string  ---> parseInt를 해줘야함(타입이 같아야 수식 적용)
+    toDos = toDos.filter((toDo) => toDo.id !== parseInt(deleteList.id));
+    saveToDos();
 }
 
 
