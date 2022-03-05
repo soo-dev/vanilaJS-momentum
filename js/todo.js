@@ -19,7 +19,6 @@ function deleteTodo(event) {
     saveToDos();
 }
 
-
 function paintToDo(newTodo) {
     // console.log("I will paint", newTodo);
     const li = document.createElement("li");
@@ -42,11 +41,11 @@ function handleToDoSubmit(event) {
     // input의 현재 value를 새로운 변수에 복사하는 것
     const newTodo = toDoInput.value;
 
-    // toDoInput.value 비워져도 newTodo 값이 비워지는것은 아님 
-    toDoInput.value="";
+    // toDoInput.value 비워져도 newTodo 값이 비워지는것은 아님
+    toDoInput.value = "";
     const newToDoObj = {
-        text:newTodo,
-        id:Date.now(),
+        text: newTodo,
+        id: Date.now(),
     };
     toDos.push(newToDoObj);
     paintToDo(newToDoObj);
@@ -57,7 +56,7 @@ toDoForm.addEventListener("submit", handleToDoSubmit);
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
-if(savedToDos !== null) {
+if (savedToDos !== null) {
     const parsedToDos = JSON.parse(savedToDos);
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
