@@ -1,4 +1,11 @@
-# vanilaJS-momentum
-바닐라 자바스크립트로 크롬 앱 모멘텀 구현하기 with Nomad Coders
+# Soomentum
 
-https://nomadcoders.co/javascript-for-beginners/lobby
+<img src="./readme.png">
+
+<a href="https://soo-dev.github.io/soomentum.github.io/" target="_blank">Soomentum link</a>
+
+Copyright
+
+<a href="https://nomadcoders.co/javascript-for-beginners" target="_blank">
+    <img src="https://nomadcoders.co/m.svg" width="30" />NomadCoder - VanilaJS 크롬앱 만들기
+</a>
