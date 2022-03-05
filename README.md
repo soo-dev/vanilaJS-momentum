@@ -1,6 +1,6 @@
 # soomentum
 
-https://soo-dev.github.io/soomentum.github.io/
+https://soo-dev.github.io/soomentum.github.io/{:target="_blank"}
 
 Copyright
 
