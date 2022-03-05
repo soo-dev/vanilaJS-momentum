@@ -1,5 +1,7 @@
 # Soomentum
 
+<img src="./readme.png">
+
 <a href="https://soo-dev.github.io/soomentum.github.io/" target="_blank">Soomentum link</a>
 
 Copyright
